@@ -6,23 +6,22 @@ import xml.etree.ElementTree as ET
 import requests
 import scrapy
 from bs4 import BeautifulSoup
-from models.models import Company
+from models.models import Artist
 
-
-class BoardgamepublisherSpider(scrapy.Spider):
-    name = "boardgamepublisher"
+class BoardgameartistSpider(scrapy.Spider):
+    name = "boardgameartist"
     allowed_domains = ["api.geekdo.com"]
     start_urls = ["https://api.geekdo.com/xmlapi/"]
 
     def __init__(self, *args, **kwargs):
-        super(BoardgamepublisherSpider, self).__init__(*args, **kwargs)
+        super(BoardgameartistSpider, self).__init__(*args, **kwargs)
         output_directory = './scrapped_data'
         if not os.path.exists(output_directory):
             os.makedirs(output_directory)
 
     custom_settings = {
         'FEEDS': {
-            os.path.join('scrapped_data', 'bgg_publisher_data.json'): {
+            os.path.join('scrapped_data', 'bgg_artist_data.json'): {
                 'format': 'json',
                 'encoding': 'utf-8',
                 'ensure_ascii': False,
@@ -33,7 +32,7 @@ class BoardgamepublisherSpider(scrapy.Spider):
     }
 
     def start_requests(self):
-        filename = './data/companies_objectids.json'
+        filename = './data/artists_objectids.json'
         with open(filename, 'r', encoding='utf-8') as file:
             items = json.load(file)
         index = 0
@@ -53,8 +52,8 @@ class BoardgamepublisherSpider(scrapy.Spider):
         final_url = url_response.url
         boardgames = response.meta['boardgames']
         root = ET.fromstring(response.body)
-        boardgame_publisher = self.build_boardgamepublisher(root, id, final_url, boardgames)
-        yield boardgame_publisher.dict()
+        boardgamepublisher = self.build_boardgamepublisher(root, id, final_url, boardgames)
+        yield boardgamepublisher.dict()
 
     def extract_name(self, root):
         primary_name_element = root.find(".//name")
@@ -86,5 +85,5 @@ class BoardgamepublisherSpider(scrapy.Spider):
         description = self.extract_description(root).strip()
         author = 22205250
         id = int(id)
-        company = Company(author, id, url, name, description, boardgames)
+        company = Artist(author, id, url, name, description, boardgames)
         return company

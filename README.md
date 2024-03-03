@@ -1,3 +1,3 @@
 # spark_boardgames_project
 
-api 1 : boardgame, boardgamedesigner 
+api 1 : boardgame, boardgamedesigner, publisher , artist 

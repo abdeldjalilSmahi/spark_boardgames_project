@@ -6,23 +6,27 @@ import xml.etree.ElementTree as ET
 import requests
 import scrapy
 from bs4 import BeautifulSoup
-from models.models import Company
+from models.models import Family
 
 
-class BoardgamepublisherSpider(scrapy.Spider):
-    name = "boardgamepublisher"
+class BoardgamefamilySpider(scrapy.Spider):
+    name = "boardgamefamily"
     allowed_domains = ["api.geekdo.com"]
-    start_urls = ["https://api.geekdo.com/xmlapi/"]
+    start_urls = ["https://api.geekdo.com/xmlapi2/family"]
 
     def __init__(self, *args, **kwargs):
-        super(BoardgamepublisherSpider, self).__init__(*args, **kwargs)
+        super(BoardgamefamilySpider, self).__init__(*args, **kwargs)
         output_directory = './scrapped_data'
         if not os.path.exists(output_directory):
             os.makedirs(output_directory)
 
     custom_settings = {
+        'SCRAPEOPS_API_KEY': 'adb5f5fe-dcae-454e-b30a-711a1e28e4e8',
+        'SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT': 'https://headers.scrapeops.io/v1/user-agents',
+        'SCRAPEOPS_FAKE_USER_AGENT_ENABLED': True,
+        'SCRAPEOPS_NUM_RESULTS': 1000,
         'FEEDS': {
-            os.path.join('scrapped_data', 'bgg_publisher_data.json'): {
+            os.path.join('scrapped_data', 'bgg_family_data.json'): {
                 'format': 'json',
                 'encoding': 'utf-8',
                 'ensure_ascii': False,
@@ -30,17 +34,20 @@ class BoardgamepublisherSpider(scrapy.Spider):
                 'overwrite': True
             },
         },
+        'DOWNLOADER_MIDDLEWARES': {
+            'boardgames.middlewares.ScrapeOpsFakeUserAgentMiddleware': 400,
+        },
     }
 
     def start_requests(self):
-        filename = './data/companies_objectids.json'
+        filename = './data/families_objectids.json'
         with open(filename, 'r', encoding='utf-8') as file:
             items = json.load(file)
         index = 0
         for key in items:
             index += 1
             url = f'https://boardgamegeek.com/{self.name}/{key}'
-            url_request = self.start_urls[0] + self.name + "/" + key
+            url_request = f"{self.start_urls[0]}?id={key}&type={self.name}"
             yield scrapy.Request(url=url_request, callback=self.parse,
                                  meta={'id': key, 'url': url, 'boardgames': items[key]})
             if index == 10:
@@ -53,14 +60,15 @@ class BoardgamepublisherSpider(scrapy.Spider):
         final_url = url_response.url
         boardgames = response.meta['boardgames']
         root = ET.fromstring(response.body)
-        boardgame_publisher = self.build_boardgamepublisher(root, id, final_url, boardgames)
-        yield boardgame_publisher.dict()
+        boardgamepublisher = self.build_boardgamepublisher(root, id, final_url, boardgames)
+        yield boardgamepublisher.dict()
 
     def extract_name(self, root):
-        primary_name_element = root.find(".//name")
-        primary_name = primary_name_element.text if primary_name_element is not None else ""
+        # Extraction du nom
+        name_element = root.find(".//name[@type='primary']")
+        name = name_element.get('value') if name_element is not None else ""
 
-        return primary_name
+        return name
 
     def extract_description(self, root):
         description_element = root.find(".//description")
@@ -86,5 +94,6 @@ class BoardgamepublisherSpider(scrapy.Spider):
         description = self.extract_description(root).strip()
         author = 22205250
         id = int(id)
-        company = Company(author, id, url, name, description, boardgames)
+        company = Family(author, id, url, name, description, boardgames)
         return company
+
