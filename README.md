@@ -12,7 +12,7 @@ Pour ce faire : **scrapy startproject <project_name>**
 
 Dans mon cas le projet scrapy est nommé boardgames.
 
-Installer les config : 
+Installer la config : 
 - **cd boardgames/boardgames** 
 - **pip install -e .**
 
@@ -49,5 +49,8 @@ Se rendre dans boardgames via **cd boardgames/boardgames**
 - après il faut faire la navigation properties, pour ce faire il faut lancer **python .\navigation_properties\navigation_properties.py**  .
 - lancer chaque scraper comme **scrapy crawl boardgamecategory**
 
+## Résultats :
+- Les données scrappée sont enregistrées dans le repertoire scrapped_data
 
-selenium : category , subdomain , mechanic (description_clean vs description (:' ) 
+
+[//]: # (selenium : category , subdomain , mechanic &#40;description_clean vs description &#40;:' &#41; )
