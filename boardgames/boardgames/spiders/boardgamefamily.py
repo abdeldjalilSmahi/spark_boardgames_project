@@ -10,6 +10,11 @@ from models.models import Family
 
 
 class BoardgamefamilySpider(scrapy.Spider):
+    """
+    Spider pour scraper boardgamefamily
+    Utilisation de la version 2 de l'api de boardgamegeek https://api.geekdo.com/xmlapi2/family
+    Utilisation de fakeUserAgent pour contouner le nombre limité de requetes.
+    """
     name = "boardgamefamily"
     allowed_domains = ["api.geekdo.com"]
     start_urls = ["https://api.geekdo.com/xmlapi2/family"]
@@ -21,6 +26,7 @@ class BoardgamefamilySpider(scrapy.Spider):
             os.makedirs(output_directory)
 
     custom_settings = {
+        # Configuration des settings, notamment le fakeUserAgent.
         'SCRAPEOPS_API_KEY': 'adb5f5fe-dcae-454e-b30a-711a1e28e4e8',
         'SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT': 'https://headers.scrapeops.io/v1/user-agents',
         'SCRAPEOPS_FAKE_USER_AGENT_ENABLED': True,
@@ -35,6 +41,7 @@ class BoardgamefamilySpider(scrapy.Spider):
             },
         },
         'DOWNLOADER_MIDDLEWARES': {
+            # Appel au middleware de fakeUserAgent et la priorité.
             'boardgames.middlewares.ScrapeOpsFakeUserAgentMiddleware': 400,
         },
     }
@@ -96,4 +103,3 @@ class BoardgamefamilySpider(scrapy.Spider):
         id = int(id)
         company = Family(author, id, url, name, description, boardgames)
         return company
-

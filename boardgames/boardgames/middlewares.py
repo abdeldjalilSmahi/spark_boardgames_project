@@ -112,9 +112,13 @@ from selenium.common.exceptions import TimeoutException
 
 
 class HeadlessChromeSeleniumMiddleware(SeleniumMiddleware):
+    """
+    Class pour gérer orchestrer selenium avec scrapy.
+    """
     def __init__(self, *args, **kwargs):
         self.request_count = 0
-        self.max_requests = 1000  # Nombre maximal de requêtes avant de redémarrer le navigateur
+        self.max_requests = 1000  # Nombre maximal de requêtes avant de redémarrer le navigateur,
+        # On fait comme ça car cumuler les fenetres chrome consome de la ram.
         self.initialize_browser()
 
     def initialize_browser(self):
@@ -158,6 +162,9 @@ import requests
 
 
 class ScrapeOpsFakeUserAgentMiddleware:
+    """
+    Class pour gérer le middleware de fake user agents
+    """
     @classmethod
     def from_crawler(cls, crawler):
         return cls(crawler.settings)
@@ -194,7 +201,7 @@ class ScrapeOpsFakeUserAgentMiddleware:
         random_user_agent = self._get_random_user_agent()
         request.headers['User-Agent'] = random_user_agent
 
-        print("********************************* NEW HEADER ARACHE ********************")
+        print("********************************* NEW HEADER ARACHE *****************************")
         print(request.headers['User-Agent'])
 
 

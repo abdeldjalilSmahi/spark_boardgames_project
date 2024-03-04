@@ -7,7 +7,8 @@
 ## Création des spiders 
 
 
-Il faut d'abord créer les spiders ! dans le cadre de ce repo cette étape est deja faite.
+Il faut d'abord créer les spiders ! dans le cadre de **ce repo cette étape est deja faite.**
+
 Pour ce faire : **scrapy startproject <project_name>**
 
 Dans mon cas le projet scrapy est nommé boardgames.
