@@ -48,14 +48,11 @@ class BoardgameSpider(scrapy.Spider):
         csv_parser = CSVParser('./data/boardgames_ranks.csv')
         print("Debut de scrapping, ENJOY :D ")
         print("*************************************************************")
-        index = 0  # FOR TEST
         for bgg_id in csv_parser.get_info():
-            index += 1
             url_request = self.start_urls[0] + "boardgame" + "/" + bgg_id + "?stats=1"
             yield scrapy.Request(url=url_request, callback=self.parse,
                                  meta={'id': bgg_id})
-            if index == 10:
-                break
+
 
     def parse(self, response):
         """

@@ -36,15 +36,14 @@ class BoardgamedesignerSpider(scrapy.Spider):
         filename = './data/designers_objectids.json'
         with open(filename, 'r', encoding='utf-8') as file:
             items = json.load(file)
-        index = 0
+
         for key in items:
-            index += 1
+
             url = f'https://boardgamegeek.com/{self.name}/{key}'
             url_request = self.start_urls[0] + self.name + "/" + key
             yield scrapy.Request(url=url_request, callback=self.parse,
                                  meta={'id': key, 'url': url, 'boardgames': items[key]})
-            if index == 10:
-                break
+
     def parse(self, response):
         id = response.meta['id']
         url = response.meta['url']
