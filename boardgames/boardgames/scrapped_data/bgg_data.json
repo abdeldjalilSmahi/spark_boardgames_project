@@ -1,6 +1,173 @@
 [
 {
-    "created_at": "2024-03-03T21:57:19.911171",
+    "created_at": "2024-03-04T10:26:56.289727",
+    "object_id": 161936,
+    "url": "https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1",
+    "name": "Pandemic Legacy: Season 1",
+    "description": "Pandemic Legacy is a co-operative campaign game, with an overarching story-arc played through 12-24 sessions, depending on how well your group does at the game. At the beginning, the game starts very similar to basic Pandemic, in which your team of disease-fighting specialists races against the clock to travel around the world, treating disease hotspots while researching cures for each of four plagues before they get out of hand.During a player's turn, they have four actions available, with which they may travel around in the world in various ways (sometimes needing to discard a card), build structures like research stations, treat diseases (removing one cube from the board; if all cubes of a color have been removed, the disease has been eradicated), trade cards with other players, or find a cure for a disease (requiring five cards of the same color to be discarded while at a research station). Each player has a unique role with special abilities to help them at these actions.After a player has taken their actions, they draw two cards. These cards can include epidemic cards, which will place new disease cubes on the board, and can lead to an outbreak, spreading disease cubes even further. Outbreaks additionally increase the panic level of a city, making that city more expensive to travel to.Each month in the game, you have two chances to achieve that month's objectives. If you succeed, you win and immediately move on to the next month. If you fail, you have a second chance, with more funding for beneficial event cards.During the campaign, new rules and components will be introduced. These will sometimes require you to permanently alter the components of the game; this includes writing on cards, ripping up cards, and placing permanent stickers on components. Your characters can gain new skills, or detrimental effects. A character can even be lost entirely, at which point it's no longer available for play.Part of the Pandemic series",
+    "created_by": 22205250,
+    "updated_at": null,
+    "updated_by": null,
+    "published_year": 2015,
+    "min_player": 2,
+    "max_player": 4,
+    "playing_time": 60,
+    "playing_min_time": 60,
+    "playing_max_time": 60,
+    "age": 13,
+    "rank": 2,
+    "geek_rating": 0.0,
+    "avg_rating": 0.0,
+    "num_voters": 0,
+    "boardgame_reimplemented": [
+        221107,
+        30549
+    ],
+    "subdomain": [
+        5496,
+        5497
+    ],
+    "mechanism": [
+        2822,
+        2023,
+        2824,
+        2001,
+        2004,
+        2008,
+        2040,
+        3100,
+        2078,
+        2015
+    ],
+    "family": [
+        72224,
+        62881,
+        63524,
+        63525,
+        3430,
+        65191,
+        63526,
+        78680,
+        62899,
+        66167,
+        64952,
+        24281,
+        25404,
+        61854
+    ],
+    "categories": [
+        2145,
+        1084
+    ],
+    "companies": [
+        8291,
+        9325,
+        1391,
+        15983,
+        15889,
+        44209,
+        8820,
+        5812,
+        7992,
+        5657,
+        538,
+        2366
+    ],
+    "artists": [
+        14057
+    ],
+    "designers": [
+        442,
+        378
+    ]
+},
+{
+    "created_at": "2024-03-04T10:26:56.673988",
+    "object_id": 342942,
+    "url": "https://boardgamegeek.com/boardgame/342942/ark-nova",
+    "name": "Ark Nova",
+    "description": "In Ark Nova, you will plan and design a modern, scientifically managed zoo. With the ultimate goal of owning the most successful zoological establishment, you will build enclosures, accommodate animals, and support conservation projects all over the world. Specialists and unique buildings will help you in achieving this goal.Each player has a set of five action cards to manage their gameplay, and the power of an action is determined by the slot the card currently occupies. The cards in question are: CARDS: Allows you to gain new zoo cards (animals, sponsors, and conservation project cards). BUILD: Allows you to build standard or special enclosures, kiosks, and pavilions. ANIMALS: Allows you to accommodate animals in your zoo. ASSOCIATION: Allows your association workers to carry out different tasks. SPONSORS: Allows you to play a sponsor card in your zoo or to raise money.255 cards featuring animals, specialists, special enclosures, and conservation projects, each with a special ability, are at the heart of Ark Nova. Use them to increase the appeal and scientific reputation of your zoo and collect conservation points.—description from the publisher",
+    "created_by": 22205250,
+    "updated_at": null,
+    "updated_by": null,
+    "published_year": 2021,
+    "min_player": 1,
+    "max_player": 4,
+    "playing_time": 150,
+    "playing_min_time": 90,
+    "playing_max_time": 150,
+    "age": 14,
+    "rank": 4,
+    "geek_rating": 0.0,
+    "avg_rating": 0.0,
+    "num_voters": 0,
+    "boardgame_reimplemented": [],
+    "subdomain": [
+        5497
+    ],
+    "mechanism": [
+        2914,
+        2819,
+        2026,
+        2897,
+        2002,
+        2004,
+        2902,
+        2040,
+        2041,
+        2875,
+        3100,
+        2015
+    ],
+    "family": [
+        67874,
+        5666,
+        76649,
+        76846,
+        68335,
+        66167,
+        70360,
+        73596
+    ],
+    "categories": [
+        1089,
+        1084,
+        1021
+    ],
+    "companies": [
+        10768,
+        3218,
+        17179,
+        51614,
+        2726,
+        7992,
+        29242,
+        4932,
+        44241,
+        22609,
+        42325,
+        30677,
+        39774,
+        29409,
+        8291,
+        21608,
+        22380,
+        30958,
+        8820,
+        12540
+    ],
+    "artists": [
+        138547,
+        12484,
+        11797,
+        11462
+    ],
+    "designers": [
+        138517
+    ]
+},
+{
+    "created_at": "2024-03-04T10:26:57.007375",
     "object_id": 224517,
     "url": "https://boardgamegeek.com/boardgame/224517/brass-birmingham",
     "name": "Brass: Birmingham",
@@ -97,7 +264,268 @@
     ]
 },
 {
-    "created_at": "2024-03-03T21:57:20.241910",
+    "created_at": "2024-03-04T10:26:57.319625",
+    "object_id": 316554,
+    "url": "https://boardgamegeek.com/boardgame/316554/dune-imperium",
+    "name": "Dune: Imperium",
+    "description": "Dune: Imperium is a game that uses deck-building to add a hidden-information angle to traditional worker placement. It finds inspiration in elements and characters from the Dune legacy, both the new film from Legendary Pictures and the seminal literary series from Frank Herbert, Brian Herbert, and Kevin J. Anderson.As a leader of one of the Great Houses of the Landsraad, raise your banner and marshal your forces and spies. War is coming, and at the center of the conflict is Arrakis – Dune, the desert planet.You start with a unique leader card, as well as a deck identical to those of your opponents. As you acquire cards and build your deck, your choices will define your strengths and weaknesses. Cards allow you to send your Agents to certain spaces on the game board, so how your deck evolves affects your strategy. You might become more powerful militarily, able to deploy more troops than your opponents. Or you might acquire cards that give you an edge with the four political factions represented in the game: the Emperor, the Spacing Guild, the Bene Gesserit, and the Fremen.Unlike many deck-building games, you don’t play your entire hand in one turn. Instead, you draw a hand of cards at the start of every round and alternate with other players, taking one Agent turn at a time (playing one card to send one of your Agents to the game board). When it’s your turn and you have no more Agents to place, you’ll take a Reveal turn, revealing the rest of your cards, which will provide Persuasion and Swords. Persuasion is used to acquire more cards, and Swords help your troops fight for the current round’s rewards as shown on the revealed Conflict card.Defeat your rivals in combat, shrewdly navigate the political factions, and acquire precious cards. The Spice must flow to lead your House to victory!Some important links: The Official FAQ, the Unofficial FAQ, and an Automa (solo and 2p) Overview",
+    "created_by": 22205250,
+    "updated_at": null,
+    "updated_by": null,
+    "published_year": 2020,
+    "min_player": 1,
+    "max_player": 4,
+    "playing_time": 120,
+    "playing_min_time": 60,
+    "playing_max_time": 120,
+    "age": 14,
+    "rank": 6,
+    "geek_rating": 0.0,
+    "avg_rating": 0.0,
+    "num_voters": 0,
+    "boardgame_reimplemented": [
+        397598
+    ],
+    "subdomain": [
+        5497
+    ],
+    "mechanism": [
+        2914,
+        2819,
+        2082,
+        2664,
+        2857,
+        2828,
+        3100,
+        2864,
+        2901,
+        2041,
+        3099,
+        2876,
+        2686,
+        2015
+    ],
+    "family": [
+        79009,
+        5666,
+        77349,
+        5838,
+        78198,
+        59705
+    ],
+    "categories": [
+        1064,
+        1001,
+        1093,
+        1016
+    ],
+    "companies": [
+        48648,
+        33706,
+        55404,
+        45134,
+        34801,
+        39249,
+        3475,
+        36563,
+        15605,
+        33626,
+        21053
+    ],
+    "artists": [
+        31001,
+        155730,
+        73773,
+        119957
+    ],
+    "designers": [
+        92370
+    ]
+},
+{
+    "created_at": "2024-03-04T10:26:57.644088",
+    "object_id": 115746,
+    "url": "https://boardgamegeek.com/boardgame/115746/war-ring-second-edition",
+    "name": "War of the Ring: Second Edition",
+    "description": "In War of the Ring, one player takes control of the Free Peoples (FP), the other player controls Shadow Armies (SA). Initially, the Free People Nations are reluctant to take arms against Sauron, so they must be attacked by Sauron or persuaded by Gandalf or other Companions, before they start to fight properly: this is represented by the Political Track, which shows if a Nation is ready to fight in the War of the Ring or not.The game can be won by a military victory, if Sauron conquers a certain number of Free People cities and strongholds or vice versa. But the true hope of the Free Peoples lies with the quest of the Ringbearer: while the armies clash across Middle-earth, the Fellowship of the Ring is trying to get secretly to Mount Doom to destroy the One Ring. Sauron is not aware of the real intention of his enemies but is looking across Middle-earth for the precious Ring, so that the Fellowship is going to face numerous dangers, represented by the rules of The Hunt for the Ring. But the Companions can spur the Free Peoples to the fight against Sauron, so the Free People player must balance the need to protect the Ringbearer from harm, against the attempt to raise a proper defense against the armies of the Shadow, so that they do not overrun Middle-earth before the Ringbearer completes his quest.Each game turn revolves around the roll of Action Dice: each die corresponds to an action that a player can do during a turn. Depending on the face rolled on each die, different actions are possible (moving armies, characters, recruiting troops, advancing a Political Track).Action Dice can also be used to draw or play Event Cards. Event Cards are played to represent specific events from the story (or events that could possibly have happened) that cannot be portrayed through normal game-play. Each Event Card can also create an unexpected turn in the game, allowing special actions or altering the course of a battle.",
+    "created_by": 22205250,
+    "updated_at": null,
+    "updated_by": null,
+    "published_year": 2011,
+    "min_player": 2,
+    "max_player": 4,
+    "playing_time": 180,
+    "playing_min_time": 150,
+    "playing_max_time": 180,
+    "age": 13,
+    "rank": 8,
+    "geek_rating": 0.0,
+    "avg_rating": 0.0,
+    "num_voters": 0,
+    "boardgame_reimplemented": [
+        362944,
+        9609
+    ],
+    "subdomain": [
+        5496,
+        4664
+    ],
+    "mechanism": [
+        2080,
+        2018,
+        2850,
+        2947,
+        2019,
+        2857,
+        2897,
+        2838,
+        2072,
+        2040,
+        2046
+    ],
+    "family": [
+        64960,
+        25158,
+        4263,
+        5615,
+        77906,
+        5723
+    ],
+    "categories": [
+        1093,
+        1010,
+        1046,
+        1047,
+        1019,
+        1086
+    ],
+    "companies": [
+        35809,
+        15906,
+        21053,
+        36,
+        264,
+        4617,
+        29194,
+        14346,
+        6123,
+        24844,
+        45134,
+        38809,
+        17917,
+        2366
+    ],
+    "artists": [
+        11884,
+        20670
+    ],
+    "designers": [
+        935,
+        934,
+        3247
+    ]
+},
+{
+    "created_at": "2024-03-04T10:26:58.074654",
+    "object_id": 174430,
+    "url": "https://boardgamegeek.com/boardgame/174430/gloomhaven",
+    "name": "Gloomhaven",
+    "description": "Gloomhaven is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a “Choose Your Own Adventure” book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.Each turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player’s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.",
+    "created_by": 22205250,
+    "updated_at": null,
+    "updated_by": null,
+    "published_year": 2017,
+    "min_player": 1,
+    "max_player": 4,
+    "playing_time": 120,
+    "playing_min_time": 60,
+    "playing_max_time": 120,
+    "age": 14,
+    "rank": 3,
+    "geek_rating": 0.0,
+    "avg_rating": 0.0,
+    "num_voters": 0,
+    "boardgame_reimplemented": [
+        390478
+    ],
+    "subdomain": [
+        5496,
+        5497
+    ],
+    "mechanism": [
+        2689,
+        2819,
+        2822,
+        2824,
+        2839,
+        3099,
+        3100,
+        2846,
+        2975,
+        2854,
+        2857,
+        3004,
+        2893,
+        2011,
+        2015,
+        2018,
+        2020,
+        2023,
+        2026,
+        2028,
+        2676,
+        2040
+    ],
+    "family": [
+        5666,
+        77349,
+        25158,
+        65191,
+        25404,
+        75241,
+        45610,
+        5615,
+        67953,
+        59218,
+        68438,
+        8374,
+        78680,
+        24281,
+        73596,
+        7005,
+        66335
+    ],
+    "categories": [
+        1010,
+        1046,
+        1047,
+        1020,
+        1022
+    ],
+    "companies": [
+        27425,
+        46179,
+        18852,
+        8291,
+        22380,
+        23756,
+        4304,
+        3475,
+        8820,
+        15605,
+        40478
+    ],
+    "artists": [
+        78961,
+        77084,
+        84269
+    ],
+    "designers": [
+        69802
+    ]
+},
+{
+    "created_at": "2024-03-04T10:26:58.410453",
     "object_id": 167791,
     "url": "https://boardgamegeek.com/boardgame/167791/terraforming-mars",
     "name": "Terraforming Mars",
@@ -203,282 +631,7 @@
     ]
 },
 {
-    "created_at": "2024-03-03T21:57:20.559035",
-    "object_id": 233078,
-    "url": "https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition",
-    "name": "Twilight Imperium: Fourth Edition",
-    "description": "Twilight Imperium (Fourth Edition) is a game of galactic conquest in which three to six players take on the role of one of seventeen factions vying for galactic domination through military might, political maneuvering, and economic bargaining. Every faction offers a completely different play experience, from the wormhole-hopping Ghosts of Creuss to the Emirates of Hacan, masters of trade and economics. These seventeen races are offered many paths to victory, but only one may sit upon the throne of Mecatol Rex as the new masters of the galaxy.No two games of Twilight Imperium are ever identical. At the start of each galactic age, the game board is uniquely and strategically constructed using 51 galaxy tiles that feature everything from lush new planets and supernovas to asteroid fields and gravity rifts. Players are dealt a hand of these tiles and take turns creating the galaxy around Mecatol Rex, the capital planet seated in the center of the board. An ion storm may block your race from progressing through the galaxy while a fortuitously placed gravity rift may protect you from your closest foes. The galaxy is yours to both craft and dominate.A round of Twilight Imperium begins with players selecting one of eight strategy cards that both determine player order and give their owner a unique strategic action for that round. These may do anything from providing additional command tokens to allowing a player to control trade throughout the galaxy. After these roles are selected, players take turns moving their fleets from system to system, claiming new planets for their empire, and engaging in warfare and trade with other factions. At the end of a turn, players gather in a grand council to pass new laws and agendas, shaking up the game in unpredictable ways.After every player has passed their turn, players move up the victory track by checking to see whether they have completed any objectives throughout the turn and scoring them. Objectives are determined by setting up ten public objective cards at the start of each game, then gradually revealing them with every round. Every player also chooses between two random secret objectives at the start of the game, providing victory points achievable only by the holder of that objective. These objectives can be anything from researching new technologies to taking your neighbor's home system. At the end of every turn, a player can claim one public objective and one secret objective. As play continues, more of these objectives are revealed and more secret objectives are dealt out, giving players dynamically changing goals throughout the game. Play continues until a player reaches ten victory points.—description from the publisher",
-    "created_by": 22205250,
-    "updated_at": null,
-    "updated_by": null,
-    "published_year": 2017,
-    "min_player": 3,
-    "max_player": 6,
-    "playing_time": 480,
-    "playing_min_time": 240,
-    "playing_max_time": 480,
-    "age": 14,
-    "rank": 5,
-    "geek_rating": 0.0,
-    "avg_rating": 0.0,
-    "num_voters": 0,
-    "boardgame_reimplemented": [
-        12493
-    ],
-    "subdomain": [
-        5496,
-        5497
-    ],
-    "mechanism": [
-        2849,
-        2914,
-        2017,
-        2021,
-        2886,
-        2011,
-        2026,
-        2897,
-        2676,
-        2838,
-        2008,
-        2072,
-        2015,
-        2843,
-        2876,
-        2079
-    ],
-    "family": [
-        67874,
-        25158,
-        12210,
-        64949,
-        78680,
-        29
-    ],
-    "categories": [
-        1026,
-        1001,
-        1015,
-        1016,
-        1113,
-        1019,
-        1020,
-        1021
-    ],
-    "companies": [
-        23043,
-        18852,
-        4617,
-        17,
-        15889,
-        3475,
-        39249,
-        15605,
-        34744,
-        2973
-    ],
-    "artists": [
-        11988
-    ],
-    "designers": [
-        96049,
-        6651,
-        21
-    ]
-},
-{
-    "created_at": "2024-03-03T21:57:20.872550",
-    "object_id": 174430,
-    "url": "https://boardgamegeek.com/boardgame/174430/gloomhaven",
-    "name": "Gloomhaven",
-    "description": "Gloomhaven is a game of Euro-inspired tactical combat in a persistent world of shifting motives. Players will take on the role of a wandering adventurer with their own special set of skills and their own reasons for traveling to this dark corner of the world. Players must work together out of necessity to clear out menacing dungeons and forgotten ruins. In the process, they will enhance their abilities with experience and loot, discover new locations to explore and plunder, and expand an ever-branching story fueled by the decisions they make.This is a game with a persistent and changing world that is ideally played over many game sessions. After a scenario, players will make decisions on what to do, which will determine how the story continues, kind of like a “Choose Your Own Adventure” book. Playing through a scenario is a cooperative affair where players will fight against automated monsters using an innovative card system to determine the order of play and what a player does on their turn.Each turn, a player chooses two cards to play out of their hand. The number on the top card determines their initiative for the round. Each card also has a top and bottom power, and when it is a player’s turn in the initiative order, they determine whether to use the top power of one card and the bottom power of the other, or vice-versa. Players must be careful, though, because over time they will permanently lose cards from their hands. If they take too long to clear a dungeon, they may end up exhausted and be forced to retreat.",
-    "created_by": 22205250,
-    "updated_at": null,
-    "updated_by": null,
-    "published_year": 2017,
-    "min_player": 1,
-    "max_player": 4,
-    "playing_time": 120,
-    "playing_min_time": 60,
-    "playing_max_time": 120,
-    "age": 14,
-    "rank": 3,
-    "geek_rating": 0.0,
-    "avg_rating": 0.0,
-    "num_voters": 0,
-    "boardgame_reimplemented": [
-        390478
-    ],
-    "subdomain": [
-        5496,
-        5497
-    ],
-    "mechanism": [
-        2689,
-        2819,
-        2822,
-        2824,
-        2839,
-        3099,
-        3100,
-        2846,
-        2975,
-        2854,
-        2857,
-        3004,
-        2893,
-        2011,
-        2015,
-        2018,
-        2020,
-        2023,
-        2026,
-        2028,
-        2676,
-        2040
-    ],
-    "family": [
-        5666,
-        77349,
-        25158,
-        65191,
-        25404,
-        75241,
-        45610,
-        5615,
-        67953,
-        59218,
-        68438,
-        8374,
-        78680,
-        24281,
-        73596,
-        7005,
-        66335
-    ],
-    "categories": [
-        1010,
-        1046,
-        1047,
-        1020,
-        1022
-    ],
-    "companies": [
-        27425,
-        46179,
-        18852,
-        8291,
-        22380,
-        23756,
-        4304,
-        3475,
-        8820,
-        15605,
-        40478
-    ],
-    "artists": [
-        78961,
-        77084,
-        84269
-    ],
-    "designers": [
-        69802
-    ]
-},
-{
-    "created_at": "2024-03-03T21:57:21.169040",
-    "object_id": 291457,
-    "url": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-lion",
-    "name": "Gloomhaven: Jaws of the Lion",
-    "description": "Gloomhaven: Jaws of the Lion is a standalone game that takes place before the events of Gloomhaven. The game includes four new characters — Valrath Red Guard (tank, crowd control), Inox Hatchet (ranged damage), Human Voidwarden (support, mind-control), and Quatryl Demolitionist (melee damage, obstacle manipulation) — that can also be used in the original Gloomhaven game.The game also includes 16 monster types (including seven new standard monsters and three new bosses) and a new campaign with 25 scenarios that invites the heroes to investigate a case of mysterious disappearances within the city. Is it the work of Vermlings, or is something far more sinister going on?Gloomhaven: Jaws of the Lion is aimed at a more casual audience to get people into the gameplay more quickly. All of the hard-to-organize cardboard map tiles have been removed, and instead players will play on the scenario book itself, which features new artwork unique to each scenario. The last barrier to entry — i.e., learning the game — has also been lowered through a simplified rule set and a five-scenario tutorial that will ease new players into the experience.",
-    "created_by": 22205250,
-    "updated_at": null,
-    "updated_by": null,
-    "published_year": 2020,
-    "min_player": 1,
-    "max_player": 4,
-    "playing_time": 120,
-    "playing_min_time": 30,
-    "playing_max_time": 120,
-    "age": 14,
-    "rank": 9,
-    "geek_rating": 0.0,
-    "avg_rating": 0.0,
-    "num_voters": 0,
-    "boardgame_reimplemented": [],
-    "subdomain": [
-        5496,
-        5497
-    ],
-    "mechanism": [
-        2689,
-        2018,
-        2819,
-        2020,
-        2854,
-        2023,
-        2824,
-        2822,
-        2026,
-        2893,
-        2676,
-        2839,
-        2040,
-        2015,
-        3099,
-        3004,
-        2846,
-        2975
-    ],
-    "family": [
-        72224,
-        5666,
-        77349,
-        25158,
-        65191,
-        25404,
-        75241,
-        45610,
-        62475,
-        59218,
-        78198,
-        24281,
-        73596,
-        66335
-    ],
-    "categories": [
-        1010,
-        1046,
-        1047,
-        1020,
-        1022
-    ],
-    "companies": [
-        27425,
-        46179,
-        18852,
-        8291,
-        46500,
-        50696,
-        22380,
-        48269,
-        33998,
-        4304,
-        3475,
-        8820,
-        15605
-    ],
-    "artists": [
-        66266,
-        77084,
-        79079
-    ],
-    "designers": [
-        69802
-    ]
-},
-{
-    "created_at": "2024-03-03T21:57:21.539567",
+    "created_at": "2024-03-04T10:26:58.862552",
     "object_id": 187645,
     "url": "https://boardgamegeek.com/boardgame/187645/star-wars-rebellion",
     "name": "Star Wars: Rebellion",
@@ -604,176 +757,95 @@
     ]
 },
 {
-    "created_at": "2024-03-03T21:57:21.854171",
-    "object_id": 161936,
-    "url": "https://boardgamegeek.com/boardgame/161936/pandemic-legacy-season-1",
-    "name": "Pandemic Legacy: Season 1",
-    "description": "Pandemic Legacy is a co-operative campaign game, with an overarching story-arc played through 12-24 sessions, depending on how well your group does at the game. At the beginning, the game starts very similar to basic Pandemic, in which your team of disease-fighting specialists races against the clock to travel around the world, treating disease hotspots while researching cures for each of four plagues before they get out of hand.During a player's turn, they have four actions available, with which they may travel around in the world in various ways (sometimes needing to discard a card), build structures like research stations, treat diseases (removing one cube from the board; if all cubes of a color have been removed, the disease has been eradicated), trade cards with other players, or find a cure for a disease (requiring five cards of the same color to be discarded while at a research station). Each player has a unique role with special abilities to help them at these actions.After a player has taken their actions, they draw two cards. These cards can include epidemic cards, which will place new disease cubes on the board, and can lead to an outbreak, spreading disease cubes even further. Outbreaks additionally increase the panic level of a city, making that city more expensive to travel to.Each month in the game, you have two chances to achieve that month's objectives. If you succeed, you win and immediately move on to the next month. If you fail, you have a second chance, with more funding for beneficial event cards.During the campaign, new rules and components will be introduced. These will sometimes require you to permanently alter the components of the game; this includes writing on cards, ripping up cards, and placing permanent stickers on components. Your characters can gain new skills, or detrimental effects. A character can even be lost entirely, at which point it's no longer available for play.Part of the Pandemic series",
+    "created_at": "2024-03-04T10:26:59.401530",
+    "object_id": 233078,
+    "url": "https://boardgamegeek.com/boardgame/233078/twilight-imperium-fourth-edition",
+    "name": "Twilight Imperium: Fourth Edition",
+    "description": "Twilight Imperium (Fourth Edition) is a game of galactic conquest in which three to six players take on the role of one of seventeen factions vying for galactic domination through military might, political maneuvering, and economic bargaining. Every faction offers a completely different play experience, from the wormhole-hopping Ghosts of Creuss to the Emirates of Hacan, masters of trade and economics. These seventeen races are offered many paths to victory, but only one may sit upon the throne of Mecatol Rex as the new masters of the galaxy.No two games of Twilight Imperium are ever identical. At the start of each galactic age, the game board is uniquely and strategically constructed using 51 galaxy tiles that feature everything from lush new planets and supernovas to asteroid fields and gravity rifts. Players are dealt a hand of these tiles and take turns creating the galaxy around Mecatol Rex, the capital planet seated in the center of the board. An ion storm may block your race from progressing through the galaxy while a fortuitously placed gravity rift may protect you from your closest foes. The galaxy is yours to both craft and dominate.A round of Twilight Imperium begins with players selecting one of eight strategy cards that both determine player order and give their owner a unique strategic action for that round. These may do anything from providing additional command tokens to allowing a player to control trade throughout the galaxy. After these roles are selected, players take turns moving their fleets from system to system, claiming new planets for their empire, and engaging in warfare and trade with other factions. At the end of a turn, players gather in a grand council to pass new laws and agendas, shaking up the game in unpredictable ways.After every player has passed their turn, players move up the victory track by checking to see whether they have completed any objectives throughout the turn and scoring them. Objectives are determined by setting up ten public objective cards at the start of each game, then gradually revealing them with every round. Every player also chooses between two random secret objectives at the start of the game, providing victory points achievable only by the holder of that objective. These objectives can be anything from researching new technologies to taking your neighbor's home system. At the end of every turn, a player can claim one public objective and one secret objective. As play continues, more of these objectives are revealed and more secret objectives are dealt out, giving players dynamically changing goals throughout the game. Play continues until a player reaches ten victory points.—description from the publisher",
     "created_by": 22205250,
     "updated_at": null,
     "updated_by": null,
-    "published_year": 2015,
-    "min_player": 2,
-    "max_player": 4,
-    "playing_time": 60,
-    "playing_min_time": 60,
-    "playing_max_time": 60,
-    "age": 13,
-    "rank": 2,
+    "published_year": 2017,
+    "min_player": 3,
+    "max_player": 6,
+    "playing_time": 480,
+    "playing_min_time": 240,
+    "playing_max_time": 480,
+    "age": 14,
+    "rank": 5,
     "geek_rating": 0.0,
     "avg_rating": 0.0,
     "num_voters": 0,
     "boardgame_reimplemented": [
-        221107,
-        30549
+        12493
     ],
     "subdomain": [
         5496,
         5497
     ],
     "mechanism": [
-        2822,
-        2023,
-        2824,
-        2001,
-        2004,
-        2008,
-        2040,
-        3100,
-        2078,
-        2015
-    ],
-    "family": [
-        72224,
-        62881,
-        63524,
-        63525,
-        3430,
-        65191,
-        63526,
-        78680,
-        62899,
-        66167,
-        64952,
-        24281,
-        25404,
-        61854
-    ],
-    "categories": [
-        2145,
-        1084
-    ],
-    "companies": [
-        8291,
-        9325,
-        1391,
-        15983,
-        15889,
-        44209,
-        8820,
-        5812,
-        7992,
-        5657,
-        538,
-        2366
-    ],
-    "artists": [
-        14057
-    ],
-    "designers": [
-        442,
-        378
-    ]
-},
-{
-    "created_at": "2024-03-03T21:57:22.155127",
-    "object_id": 115746,
-    "url": "https://boardgamegeek.com/boardgame/115746/war-ring-second-edition",
-    "name": "War of the Ring: Second Edition",
-    "description": "In War of the Ring, one player takes control of the Free Peoples (FP), the other player controls Shadow Armies (SA). Initially, the Free People Nations are reluctant to take arms against Sauron, so they must be attacked by Sauron or persuaded by Gandalf or other Companions, before they start to fight properly: this is represented by the Political Track, which shows if a Nation is ready to fight in the War of the Ring or not.The game can be won by a military victory, if Sauron conquers a certain number of Free People cities and strongholds or vice versa. But the true hope of the Free Peoples lies with the quest of the Ringbearer: while the armies clash across Middle-earth, the Fellowship of the Ring is trying to get secretly to Mount Doom to destroy the One Ring. Sauron is not aware of the real intention of his enemies but is looking across Middle-earth for the precious Ring, so that the Fellowship is going to face numerous dangers, represented by the rules of The Hunt for the Ring. But the Companions can spur the Free Peoples to the fight against Sauron, so the Free People player must balance the need to protect the Ringbearer from harm, against the attempt to raise a proper defense against the armies of the Shadow, so that they do not overrun Middle-earth before the Ringbearer completes his quest.Each game turn revolves around the roll of Action Dice: each die corresponds to an action that a player can do during a turn. Depending on the face rolled on each die, different actions are possible (moving armies, characters, recruiting troops, advancing a Political Track).Action Dice can also be used to draw or play Event Cards. Event Cards are played to represent specific events from the story (or events that could possibly have happened) that cannot be portrayed through normal game-play. Each Event Card can also create an unexpected turn in the game, allowing special actions or altering the course of a battle.",
-    "created_by": 22205250,
-    "updated_at": null,
-    "updated_by": null,
-    "published_year": 2011,
-    "min_player": 2,
-    "max_player": 4,
-    "playing_time": 180,
-    "playing_min_time": 150,
-    "playing_max_time": 180,
-    "age": 13,
-    "rank": 8,
-    "geek_rating": 0.0,
-    "avg_rating": 0.0,
-    "num_voters": 0,
-    "boardgame_reimplemented": [
-        362944,
-        9609
-    ],
-    "subdomain": [
-        5496,
-        4664
-    ],
-    "mechanism": [
-        2080,
-        2018,
-        2850,
-        2947,
-        2019,
-        2857,
+        2849,
+        2914,
+        2017,
+        2021,
+        2886,
+        2011,
+        2026,
         2897,
+        2676,
         2838,
+        2008,
         2072,
-        2040,
-        2046
+        2015,
+        2843,
+        2876,
+        2079
     ],
     "family": [
-        64960,
+        67874,
         25158,
-        4263,
-        5615,
-        77906,
-        5723
+        12210,
+        64949,
+        78680,
+        29
     ],
     "categories": [
-        1093,
-        1010,
-        1046,
-        1047,
+        1026,
+        1001,
+        1015,
+        1016,
+        1113,
         1019,
-        1086
+        1020,
+        1021
     ],
     "companies": [
-        35809,
-        15906,
-        21053,
-        36,
-        264,
+        23043,
+        18852,
         4617,
-        29194,
-        14346,
-        6123,
-        24844,
-        45134,
-        38809,
-        17917,
-        2366
+        17,
+        15889,
+        3475,
+        39249,
+        15605,
+        34744,
+        2973
     ],
     "artists": [
-        11884,
-        20670
+        11988
     ],
     "designers": [
-        935,
-        934,
-        3247
+        96049,
+        6651,
+        21
     ]
 },
 {
-    "created_at": "2024-03-03T21:57:22.502611",
-    "object_id": 316554,
-    "url": "https://boardgamegeek.com/boardgame/316554/dune-imperium",
-    "name": "Dune: Imperium",
-    "description": "Dune: Imperium is a game that uses deck-building to add a hidden-information angle to traditional worker placement. It finds inspiration in elements and characters from the Dune legacy, both the new film from Legendary Pictures and the seminal literary series from Frank Herbert, Brian Herbert, and Kevin J. Anderson.As a leader of one of the Great Houses of the Landsraad, raise your banner and marshal your forces and spies. War is coming, and at the center of the conflict is Arrakis – Dune, the desert planet.You start with a unique leader card, as well as a deck identical to those of your opponents. As you acquire cards and build your deck, your choices will define your strengths and weaknesses. Cards allow you to send your Agents to certain spaces on the game board, so how your deck evolves affects your strategy. You might become more powerful militarily, able to deploy more troops than your opponents. Or you might acquire cards that give you an edge with the four political factions represented in the game: the Emperor, the Spacing Guild, the Bene Gesserit, and the Fremen.Unlike many deck-building games, you don’t play your entire hand in one turn. Instead, you draw a hand of cards at the start of every round and alternate with other players, taking one Agent turn at a time (playing one card to send one of your Agents to the game board). When it’s your turn and you have no more Agents to place, you’ll take a Reveal turn, revealing the rest of your cards, which will provide Persuasion and Swords. Persuasion is used to acquire more cards, and Swords help your troops fight for the current round’s rewards as shown on the revealed Conflict card.Defeat your rivals in combat, shrewdly navigate the political factions, and acquire precious cards. The Spice must flow to lead your House to victory!Some important links: The Official FAQ, the Unofficial FAQ, and an Automa (solo and 2p) Overview",
+    "created_at": "2024-03-04T10:26:59.838046",
+    "object_id": 291457,
+    "url": "https://boardgamegeek.com/boardgame/291457/gloomhaven-jaws-lion",
+    "name": "Gloomhaven: Jaws of the Lion",
+    "description": "Gloomhaven: Jaws of the Lion is a standalone game that takes place before the events of Gloomhaven. The game includes four new characters — Valrath Red Guard (tank, crowd control), Inox Hatchet (ranged damage), Human Voidwarden (support, mind-control), and Quatryl Demolitionist (melee damage, obstacle manipulation) — that can also be used in the original Gloomhaven game.The game also includes 16 monster types (including seven new standard monsters and three new bosses) and a new campaign with 25 scenarios that invites the heroes to investigate a case of mysterious disappearances within the city. Is it the work of Vermlings, or is something far more sinister going on?Gloomhaven: Jaws of the Lion is aimed at a more casual audience to get people into the gameplay more quickly. All of the hard-to-organize cardboard map tiles have been removed, and instead players will play on the scenario book itself, which features new artwork unique to each scenario. The last barrier to entry — i.e., learning the game — has also been lowered through a simplified rule set and a five-scenario tutorial that will ease new players into the experience.",
     "created_by": 22205250,
     "updated_at": null,
     "updated_by": null,
@@ -781,155 +853,83 @@
     "min_player": 1,
     "max_player": 4,
     "playing_time": 120,
-    "playing_min_time": 60,
+    "playing_min_time": 30,
     "playing_max_time": 120,
     "age": 14,
-    "rank": 6,
-    "geek_rating": 0.0,
-    "avg_rating": 0.0,
-    "num_voters": 0,
-    "boardgame_reimplemented": [
-        397598
-    ],
-    "subdomain": [
-        5497
-    ],
-    "mechanism": [
-        2914,
-        2819,
-        2082,
-        2664,
-        2857,
-        2828,
-        3100,
-        2864,
-        2901,
-        2041,
-        3099,
-        2876,
-        2686,
-        2015
-    ],
-    "family": [
-        79009,
-        5666,
-        77349,
-        5838,
-        78198,
-        59705
-    ],
-    "categories": [
-        1064,
-        1001,
-        1093,
-        1016
-    ],
-    "companies": [
-        48648,
-        33706,
-        55404,
-        45134,
-        34801,
-        39249,
-        3475,
-        36563,
-        15605,
-        33626,
-        21053
-    ],
-    "artists": [
-        31001,
-        155730,
-        73773,
-        119957
-    ],
-    "designers": [
-        92370
-    ]
-},
-{
-    "created_at": "2024-03-03T21:57:22.805627",
-    "object_id": 342942,
-    "url": "https://boardgamegeek.com/boardgame/342942/ark-nova",
-    "name": "Ark Nova",
-    "description": "In Ark Nova, you will plan and design a modern, scientifically managed zoo. With the ultimate goal of owning the most successful zoological establishment, you will build enclosures, accommodate animals, and support conservation projects all over the world. Specialists and unique buildings will help you in achieving this goal.Each player has a set of five action cards to manage their gameplay, and the power of an action is determined by the slot the card currently occupies. The cards in question are: CARDS: Allows you to gain new zoo cards (animals, sponsors, and conservation project cards). BUILD: Allows you to build standard or special enclosures, kiosks, and pavilions. ANIMALS: Allows you to accommodate animals in your zoo. ASSOCIATION: Allows your association workers to carry out different tasks. SPONSORS: Allows you to play a sponsor card in your zoo or to raise money.255 cards featuring animals, specialists, special enclosures, and conservation projects, each with a special ability, are at the heart of Ark Nova. Use them to increase the appeal and scientific reputation of your zoo and collect conservation points.—description from the publisher",
-    "created_by": 22205250,
-    "updated_at": null,
-    "updated_by": null,
-    "published_year": 2021,
-    "min_player": 1,
-    "max_player": 4,
-    "playing_time": 150,
-    "playing_min_time": 90,
-    "playing_max_time": 150,
-    "age": 14,
-    "rank": 4,
+    "rank": 9,
     "geek_rating": 0.0,
     "avg_rating": 0.0,
     "num_voters": 0,
     "boardgame_reimplemented": [],
     "subdomain": [
+        5496,
         5497
     ],
     "mechanism": [
-        2914,
+        2689,
+        2018,
         2819,
+        2020,
+        2854,
+        2023,
+        2824,
+        2822,
         2026,
-        2897,
-        2002,
-        2004,
-        2902,
+        2893,
+        2676,
+        2839,
         2040,
-        2041,
-        2875,
-        3100,
-        2015
+        2015,
+        3099,
+        3004,
+        2846,
+        2975
     ],
     "family": [
-        67874,
+        72224,
         5666,
-        76649,
-        76846,
-        68335,
-        66167,
-        70360,
-        73596
+        77349,
+        25158,
+        65191,
+        25404,
+        75241,
+        45610,
+        62475,
+        59218,
+        78198,
+        24281,
+        73596,
+        66335
     ],
     "categories": [
-        1089,
-        1084,
-        1021
+        1010,
+        1046,
+        1047,
+        1020,
+        1022
     ],
     "companies": [
-        10768,
-        3218,
-        17179,
-        51614,
-        2726,
-        7992,
-        29242,
-        4932,
-        44241,
-        22609,
-        42325,
-        30677,
-        39774,
-        29409,
+        27425,
+        46179,
+        18852,
         8291,
-        21608,
+        46500,
+        50696,
         22380,
-        30958,
+        48269,
+        33998,
+        4304,
+        3475,
         8820,
-        12540
+        15605
     ],
     "artists": [
-        138547,
-        12484,
-        11797,
-        11462
+        66266,
+        77084,
+        79079
     ],
     "designers": [
-        138517
+        69802
     ]
 }
 ]

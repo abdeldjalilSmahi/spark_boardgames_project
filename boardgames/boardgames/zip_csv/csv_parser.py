@@ -18,7 +18,7 @@ class CSVParser:
             print(f"Erreur lors de la lecture du fichier: {e}")
 
 
-if __name__ == '__main__':
-    csv_parser = CSVParser('../data/boardgames_ranks.csv')
-    for id_bhh in csv_parser.get_info():
-        print(id_bhh)
+# if __name__ == '__main__':
+#     csv_parser = CSVParser('../data/boardgames_ranks.csv')
+#     for id_bhh in csv_parser.get_info():
+#         print(id_bhh)

@@ -3,6 +3,7 @@ import zipfile
 import requests
 import re
 
+
 class ZipDownloader:
     def __init__(self, url="https://geek-export-stats.s3.amazonaws.com/boardgames_export/boardgames_ranks_2024-03-03"
                            ".zip?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz"
@@ -30,10 +31,12 @@ class ZipDownloader:
             extracted_files = os.listdir(extract_to)
             print("Fichiers extraits :", extracted_files)
 
-
-if __name__ == "__main__":
-    url = "https://geek-export-stats.s3.amazonaws.com/boardgames_export/boardgames_ranks_2024-03-03.zip?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA%2F20240303%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240303T191053Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=1b53a5f4c6e5f52439767f35392bba3a565ee337b2cf8cf7b3abb846ad01fec5"
-
-    zipfile_downloader = ZipDownloader(url)
-    zipfile_downloader.download()
-    zipfile_downloader.unzip_file()
+# if __name__ == "__main__":
+#     url = ("https://geek-export-stats.s3.amazonaws.com/boardgames_export/boardgames_ranks_2024-03-03.zip?X-Amz-Content"
+#            "-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJYFNCT7FKCE4O6TA"
+#            "%2F20240303%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240303T191053Z&X-Amz-SignedHeaders=host&X-Amz"
+#            "-Expires=600&X-Amz-Signature=1b53a5f4c6e5f52439767f35392bba3a565ee337b2cf8cf7b3abb846ad01fec5")
+#
+#     zipfile_downloader = ZipDownloader(url)
+#     zipfile_downloader.download()
+#     zipfile_downloader.unzip_file()
