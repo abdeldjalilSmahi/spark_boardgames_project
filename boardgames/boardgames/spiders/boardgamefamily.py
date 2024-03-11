@@ -61,11 +61,9 @@ class BoardgamefamilySpider(scrapy.Spider):
     def parse(self, response):
         id = response.meta['id']
         url = response.meta['url']
-        url_response = requests.get(url)
-        final_url = url_response.url
         boardgames = response.meta['boardgames']
         root = ET.fromstring(response.body)
-        boardgamepublisher = self.build_boardgamepublisher(root, id, final_url, boardgames)
+        boardgamepublisher = self.build_boardgamepublisher(root, id, url, boardgames)
         yield boardgamepublisher.dict()
 
     def extract_name(self, root):

@@ -22,10 +22,6 @@ class BoardgamesubdomainSpider(scrapy.Spider):
     custom_settings = {
         'DOWNLOAD_TIMEOUT': 60,  # Temps en secondes avant d'abandonner une requête
         'DOWNLOAD_DELAY': 5,  # Délai en secondes entre chaque requête
-        'SCRAPEOPS_API_KEY': 'adb5f5fe-dcae-454e-b30a-711a1e28e4e8',
-        'SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT': 'https://headers.scrapeops.io/v1/user-agents',
-        'SCRAPEOPS_FAKE_USER_AGENT_ENABLED': True,
-        'SCRAPEOPS_NUM_RESULTS': 1000,
         'RETRY_TIMES': 2,  # Nombre maximal de tentatives de réessai
         'RETRY_HTTP_CODES': [500, 502, 503, 504, 522, 524, 408, 429],
         'FEEDS': {
@@ -33,11 +29,11 @@ class BoardgamesubdomainSpider(scrapy.Spider):
                 'format': 'json',
                 'encoding': 'utf-8',
                 'ensure_ascii': False,
+                'indent': 4,
                 'overwrite': True
             },
         },
         'DOWNLOADER_MIDDLEWARES': {
-            'boardgames.middlewares.ScrapeOpsFakeUserAgentMiddleware': 400,
             'boardgames.middlewares.CustomRetryMiddleware': 550,
             'boardgames.middlewares.HeadlessChromeSeleniumMiddleware': 800
         },

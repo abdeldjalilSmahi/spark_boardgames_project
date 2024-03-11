@@ -61,10 +61,8 @@ class BoardgameSpider(scrapy.Spider):
         """
         bgg_id = response.meta['id']
         url = f"https://boardgamegeek.com/boardgame/{bgg_id}"
-        url_response = requests.get(url)
-        final_url = url_response.url
         root = ET.fromstring(response.body)
-        boardgame = self.build_boardgame_from_api(root, bgg_id, final_url)
+        boardgame = self.build_boardgame_from_api(root, bgg_id, url)
         yield boardgame.dict()
 
     def extract_name(self, root):

@@ -47,11 +47,9 @@ class BoardgamedesignerSpider(scrapy.Spider):
     def parse(self, response):
         id = response.meta['id']
         url = response.meta['url']
-        url_response = requests.get(url)
-        final_url = url_response.url
         boardgames = response.meta['boardgames']
         root = ET.fromstring(response.body)
-        boardgame_designer = self.build_boardgamepublisher(root, id, final_url, boardgames)
+        boardgame_designer = self.build_boardgamepublisher(root, id, url, boardgames)
         yield boardgame_designer.dict()
 
     def extract_name(self, root):

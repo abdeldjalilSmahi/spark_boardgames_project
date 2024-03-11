@@ -22,10 +22,6 @@ class BoardgamecategorySpider(scrapy.Spider):
     custom_settings = {
         'DOWNLOAD_TIMEOUT': 60,  # Temps en secondes avant d'abandonner une requête
         'DOWNLOAD_DELAY': 5,  # Délai en secondes entre chaque requête
-        'SCRAPEOPS_API_KEY': 'adb5f5fe-dcae-454e-b30a-711a1e28e4e8', # Ma clé pour reccuperer des fake useragents
-        'SCRAPEOPS_FAKE_USER_AGENT_ENDPOINT': 'https://headers.scrapeops.io/v1/user-agents',# j'envoie une request pour reccupérer des fake user agents
-        'SCRAPEOPS_FAKE_USER_AGENT_ENABLED': True, # Ce paramètre pour activer l'utilisation des fake user agents
-        'SCRAPEOPS_NUM_RESULTS': 1000, #nombre de fake user agents souhaité.
         'RETRY_TIMES': 2,  # Nombre maximal de tentatives de réessai
         'RETRY_HTTP_CODES': [500, 502, 503, 504, 522, 524, 408, 429],
         'FEEDS': { # Format de stockage
@@ -38,7 +34,6 @@ class BoardgamecategorySpider(scrapy.Spider):
             },
         },
         'DOWNLOADER_MIDDLEWARES': { # Middlewares.
-            'boardgames.middlewares.ScrapeOpsFakeUserAgentMiddleware': 400,
             'boardgames.middlewares.CustomRetryMiddleware': 550,
             'boardgames.middlewares.HeadlessChromeSeleniumMiddleware': 800
         },
@@ -67,7 +62,6 @@ class BoardgamecategorySpider(scrapy.Spider):
             self.logger.error(f"Échec après réessais pour l'URL: {response.url}")
             return
 
-        print(response.url)
         id = response.meta['id']
         boardgames = response.meta['boardgames']
         boardgamecateory = self.build_boardgamecategory(response, id, response.url, boardgames)
